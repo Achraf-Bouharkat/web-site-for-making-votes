@@ -1,0 +1,349 @@
+body{
+    background-color: black;
+    flex-wrap: wrap;
+}
+#h1{
+    position: absolute;
+    top: 1;
+    right: 25%;
+    font-family: "press start 2p";
+    text-shadow: none;
+    background-image: linear-gradient(to right,white,magenta 35%,blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    cursor: default;
+    transition: all 250ms;
+}
+#h1:hover{
+  color: aqua;
+  text-shadow: 0px 0px 5px white, 0px 0px 30px aqua;
+}
+.border-box1 {
+    width: 275px;
+    height: 400px;
+    border: 2px solid magenta;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background-color: purple;
+    transition: all 250ms;
+    font-family: anton;
+  }
+  .border-box2{
+    width: 275px;
+    height: 400px;
+    border: 2px solid magenta;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background-color: purple;
+    transition: all 250ms;
+    font-family: anton;
+  }
+  .border-box3{
+    width: 275px;
+    height: 400px;
+    border: 2px solid magenta;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    background-color: purple;
+    transition: all 250ms;
+    font-family: anton;
+  }
+  div,img{
+    border-radius: 30px 50px;
+  }
+  .border-box1:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    transform: scale(1.07);
+    box-shadow: 0px 0px 20px magenta, 0px 0px 30px magenta;
+    padding: 40px;
+  }
+  .border-box2:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    transform: scale(1.07);
+    box-shadow: 0px 0px 20px magenta,0px 0px 30px magenta;
+    padding: 40px;
+  }
+  .border-box3:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+    transform: scale(1.07);
+    box-shadow: 0px 0px 20px magenta,0px 0px 30px magenta;
+    padding: 40px;
+  }
+  #btn1{
+    background-color: purple;
+    border: none;
+    border-radius: 20px;
+    box-shadow: none;
+    touch-action: manipulation;
+    font-family: anton;
+    color: white;
+    transition: all 250ms;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  #btn2{
+    background-color: purple;
+    border: none;
+    border-radius: 20px;
+    box-shadow: none;
+    touch-action: manipulation;
+    font-family: anton;
+    color: white;
+    transition: all 250ms;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  #btn3{
+    background-color: purple;
+    border: none;
+    border-radius: 20px;
+    box-shadow: none;
+    touch-action: manipulation;
+    font-family: anton;
+    color: white;
+    transition: all 250ms;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  #btn4{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-family: anton;
+    border-radius: 20px;
+    border-color: magenta;
+    box-shadow: 0px 0px 5px magenta, 0px 0px 20px magenta;
+    transition: all 250ms;
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    padding: 0px 20px;
+    font-size: 25px;
+  }
+  #btn4:hover{
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    border-color: white;
+    transform: scale(1.1) rotate(-3deg);
+  }
+  #btn5{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-family: anton;
+    border-radius: 20px;
+    border-color: magenta;
+    box-shadow: 0px 0px 5px magenta, 0px 0px 20px magenta;
+    transition: all 250ms;
+    position: absolute;
+    top: 90%;
+    left: 55%;
+    padding: 0px 20px;
+    font-size: 25px;
+  }
+  #btn5:hover{
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    border-color: white;
+    transform: scale(1.1) rotate(-3deg);
+  }
+  #btn1:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1) rotate(-5deg);
+    box-shadow: 0px 0px 5px white,0px 0px 15px white;
+  }
+  #btn2:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1) rotate(-5deg);
+    box-shadow: 0px 0px 5px white,0px 0px 15px white;
+  }
+  #btn3:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1) rotate(-5deg);
+    box-shadow: 0px 0px 5px white,0px 0px 15px white;
+  }
+
+  #discord{
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    color: darkred;
+    transform: scale(2);
+    padding: 10px 0px;
+    transition: all 200ms;
+  }
+  #face{
+    position: absolute;
+    top: 100%;
+    left: 40%;
+    color: darkred;
+    transform: scale(2);
+    padding: 10px 0px;
+    transition: all 200ms;
+  }
+  #insta{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    color: darkred;
+    transform: scale(2);
+    padding: 10px 0px;
+    transition: all 200ms;
+  }
+  #X{
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    color: darkred;
+    transform: scale(2);
+    padding: 10px 0px;
+    transition: all 200ms;
+  }
+#discord:hover{
+  color: #7289da;
+}
+#face:hover{
+  color: blue;
+}
+#insta:hover{
+  color: #962fbf;
+}
+#X:hover{
+  color: white;
+}
+#div9{
+  display: none;
+}
+#div2{
+  width: 0pc;
+  height: 20px;
+  border: 2px solid magenta;
+  border-radius: 0%;
+  position: absolute;
+  top: 110%;
+  left: 10%;
+  color: white;
+  background-color: blueviolet;
+  font-family: anton;
+}
+#div3{
+  width: 0pc;
+  height: 20px;
+  border: 2px solid magenta;
+  border-radius: 0%;
+  position: absolute;
+  top: 125%;
+  left: 10%;
+  color: white;
+  background-color: blueviolet;
+  font-family: anton;
+}
+#div10{
+  width: 0pc;
+  height: 20px;
+  border: 2px solid magenta;
+  border-radius: 0%;
+  position: absolute;
+  top: 140%;
+  left: 10%;
+  color: white;
+  background-color: blueviolet;
+  font-family: anton;
+}
+#p4{
+  color: white;
+  font-family: anton;
+  position: absolute;
+  top: 102%;
+  left: 20%;
+}
+#p5{
+  color: white;
+  font-family: anton;
+  position: absolute;
+  top: 117%;
+  left: 20%;
+}
+#p6{
+  color: white;
+  font-family: anton;
+  position: absolute;
+  top: 132%;
+  left: 20%;
+}
+#p7{
+  color: white;
+  font-family: anton;
+  position: absolute;
+  top: 150%;
+  right: 50%;
+  font-size: 25px;
+  transition: all 250ms;
+  cursor: default;
+}
+#p7:hover{
+  background-image: linear-gradient(to right ,magenta 35%,blue);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transform: scale(1.1);
+}
+#btn6{
+  cursor: pointer;
+    background-color: black;
+    color: white;
+    font-family: anton;
+    border-radius: 20px;
+    border-color: magenta;
+    box-shadow: 0px 0px 5px magenta, 0px 0px 20px magenta;
+    transition: all 250ms;
+    position: absolute;
+    top: 100%;
+    left: 55%;
+    padding: 0px 20px;
+    font-size: 25px;
+}
+#btn6:hover{
+  background-color: white;
+    color: black;
+    box-shadow: none;
+    border-color: white;
+    transform: rotate(-3deg) scale(1.1);
+}
+#btn7{
+  cursor: pointer;
+    background-color: black;
+    color: white;
+    font-family: anton;
+    border-radius: 20px;
+    border-color: magenta;
+    box-shadow: 0px 0px 5px magenta, 0px 0px 20px magenta;
+    transition: all 250ms;
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    padding: 0px 20px;
+    font-size: 25px;
+}
+#btn7:hover{
+  background-color: white;
+    color: black;
+    box-shadow: none;
+    border-color: white;
+    transform: rotate(-3deg) scale(1.1);
+}
